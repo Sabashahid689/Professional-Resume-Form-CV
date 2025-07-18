@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Resume Builder</title>
+</head>
+<body>
+    <div class="container">
+        <form id="resume-form">
+            <h2>Resume Information</h2>
+            <div>
+                <label>Name:</label>
+                <input type="text" id="name" required />
+            </div>
+            <div>
+                <label>Phone:</label>
+                <input type="text" id="phone" required />
+            </div>
+            <div>
+                <label>Location:</label>
+                <input type="text" id="location" required />
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="email" id="email" required />
+            </div>
+            <div>
+                <label>Date of Birth:</label>
+                <input type="date" id="dob" required />
+            </div>
+            <div>
+                <label>Nationality:</label>
+                <input type="text" id="nationality" required />
+            </div>
+            <div>
+                <label>Education:</label>
+                <textarea id="education" required></textarea>
+            </div>
+            <div>
+                <label>Experience:</label>
+                <textarea id="experience" required></textarea>
+            </div>
+            <div>
+                <label>Skills:</label>
+                <textarea id="skills-input" required></textarea>
+            </div>
+            <div>
+                <label>Profile Picture:</label>
+                <input type="file" id="profile-pic" accept="image/*" />
+            </div>
+            <button type="submit">Generate Resume</button>
+        </form>
+
+        <div id="resume-preview"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>

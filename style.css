@@ -1,0 +1,136 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #9979c0; 
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #e794f4; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.top-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image {
+    margin-bottom: 15px;
+}
+
+.image img {
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 3px solid #490352;
+}
+
+h1 {
+    margin: 10px 0;
+    color: #333; 
+}
+
+h2 {
+    margin: 5px 0;
+    color: #400d57; 
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+p {
+    margin: 5px 0;
+    color: #83169b;
+}
+
+.bottom-section {
+    margin-top: 20px;
+    text-align: center; 
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 15px;
+}
+
+.toggle-btn {
+    background-color: #5784e7; /* Blue background for buttons */
+    color: #fff; /* White text for buttons */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 16px;
+}
+
+.toggle-btn:hover {
+    background-color: #4a6da7; 
+    transform: translateY(-2px); }
+
+.options {
+    display: none; 
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.options h3 {
+    margin-top: 0;
+    color: #333; }
+
+.options ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.options li {
+    margin: 5px 0;
+    padding: 5px;
+    border-bottom: 1px solid #ddd; }
+
+.options li:last-child {
+    border-bottom: none; 
+}
+
+form {
+    margin-top: 20px;
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    background-color: #f9f9f9; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+textarea:focus {
+    border-color: #5784e7; 
+    outline: none; 
+}
+
+textarea {
+    resize: vertical; 
+}
